@@ -1,0 +1,20 @@
+.features {
+    background-image: url('../../../public/bg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.feature_card {
+    padding: 20px;
+    background-color: var(--basic-color);
+    border-radius: 20px;
+    margin: 20px 0;
+    text-align: center;
+    height: 190px;
+}
+.feature_card h5 {
+    color: var(--main-color);
+    font-weight: bold;
+}
+.feature_card p {font-size: 13px;}
+.feature_card svg {color: var(--sub-color) !important;}

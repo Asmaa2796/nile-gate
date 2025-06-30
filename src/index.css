@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('../src/Nunito-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif !important;
+  position: relative;
+  overflow-x: hidden;
+}

@@ -1,0 +1,48 @@
+.about {
+    background-color: #fbfbfb;
+}
+.about_text {
+    height: 100%;
+    padding: 20px;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+}
+.about_text div {
+    padding: 20px;
+    border: 2px solid var(--basic-color);
+}
+.about_text h5 {padding-bottom: 6px;border-bottom: 3px double var(--basic-color);font-weight: bold;}
+.about_text p {font-size: 13px;margin-block: 12px 0;}
+
+/* Optional: media query for very small screens */
+@media (max-width: 480px) {
+
+  .book-wrapper canvas {
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+  .about_text div {padding: 17px;}
+}
+/* Add margin below on small screens */
+@media (max-width: 768px) {
+  .book-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .tap-zone {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    z-index: 9;
+  }
+
+  .tap-zone.left {
+    left: 0;
+  }
+
+  .tap-zone.right {
+    right: 0;
+  }
+}

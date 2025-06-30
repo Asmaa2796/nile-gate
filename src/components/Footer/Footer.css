@@ -1,0 +1,19 @@
+.footer {
+    background-image: url('../../../public/sprinkle.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-link {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer p, .footer h5 {
+  margin-bottom: 0.7rem;
+}
+.footer_logo {width: auto;max-height: 70px;margin: 0px auto 20px auto;display: block;}
+.footer p {display: flex;}
+.footer p svg {margin-top:3px}
+.quick_links li a {color: var(--basic-color) !important;}

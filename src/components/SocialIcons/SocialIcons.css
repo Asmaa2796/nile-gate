@@ -1,0 +1,19 @@
+.social_icons {
+         background-color: var(--basic-color);
+    position: fixed;
+    left: 0;
+    top: 30%;
+        border: 3px solid var(--main-color);
+    z-index: 9;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+
+}
+.social_icons .link {
+  color: var(--main-color) !important;
+  display: block;
+  font-size: 16px;
+  margin-block: 4px;
+  transition: color 0.3s ease;
+}
+

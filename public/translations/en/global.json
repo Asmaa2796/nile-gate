@@ -1,0 +1,102 @@
+{
+  "navbar": {
+    "home": "Home",
+    "contact": "Contact Us",
+    "about": "About Us",
+    "products": "Our Products",
+    "gallery": "Gallery",
+    "features": "Our Features",
+    "Arabic": "Arabic",
+    "English": "English",
+    "language": "Language"
+  },
+  "home":{
+     "typed1": "Welcome to Nile Gate Export",
+    "typed2": "Best way for Exporting",
+    "heroDesc": "Nile Gate Export delivers quality Egyptian products worldwide with a focus on reliability, efficiency, and customer satisfaction.",
+    "requestQuote": "Request A Quote"
+  },
+  "about": {
+    "heading": "About Us",
+    "whoUsTitle": "Who Us",
+    "whoUsText": "At Nile Gate Export, we are committed to bridging global markets with the finest products from Egypt and the region. With years of experience in international trade, we specialize in sourcing, quality control, packaging, and timely export of agricultural produce, industrial goods, and handcrafted products to clients worldwide.",
+    "missionTitle": "Our mission",
+    "missionText": "Our mission is to deliver excellence beyond borders — providing reliable, efficient, and transparent export solutions tailored to the needs of businesses, wholesalers, and retailers across the globe.",
+    "visionTitle": "Our vision",
+    "visionText": "We believe that trust, quality, and consistency are the foundation of strong global partnerships. From farm to freight, every shipment is handled with precision and care, ensuring it reaches you in perfect condition and on time.",
+    "paragraphText": "We are committed to bridging global markets with the finest products from Egypt and the region. With years of experience in international trade, we specialize in sourcing, quality control, packaging, and timely export of agricultural produce, industrial goods, and handcrafted products to clients worldwide."
+  },
+  "features": {
+  "globalTitle": "Global Reach",
+  "globalDesc": "We deliver top-quality Egyptian products to clients across continents with efficiency and care.",
+  "qualityTitle": "Quality Assurance",
+  "qualityDesc": "Every shipment undergoes strict quality checks, ensuring only the best reaches our clients.",
+  "packagingTitle": "Custom Packaging",
+  "packagingDesc": "Tailored packaging solutions to meet international standards and client-specific branding needs.",
+  "deliveryTitle": "Timely Delivery",
+  "deliveryDesc": "We prioritize punctuality, ensuring your orders are delivered on time, every time."
+},
+"products": {
+  "freshFruits": "Fresh Fruits",
+  "frozenFruits": "Frozen Fruits",
+  "freshVegetables": "Fresh Vegetables",
+  "productDetails":"Product Details",
+  "noSubItems":"No Sub Items"
+},
+"categories": {
+  "title": "Product Categories",
+  "freshFruits": "Fresh Fruits",
+  "frozenFruits": "Frozen Fruits",
+  "freshVegetables": "Fresh Vegetables",
+  "frozenVegetables": "Frozen Vegetables",
+  "herbs": "Herbs",
+  "rosemary": "Rosemary",
+  "seeds": "Seeds",
+  "cumin": "Cumin",
+  "fennel": "Fennel",
+  "spices": "Spices",
+  "blackPepper": "Black Pepper",
+  "whitePepper": "White Pepper",
+  "cloves": "Cloves",
+  "grains": "Grains",
+  "whiteKidneyBeans": "White Kidney Beans",
+  "cowpeas": "Cowpeas",
+  "lentil": "Lentil",
+  "egyptianCottonClothes": "Egyptian Cotton clothes",
+  "clothes": "Clothes",
+  "underwearCotton": "Underwear Cotton",
+  "dates": "Dates",
+  "garlic": "Garlic",
+  "dryGarlic": "Dry Garlic",
+  "redGarlic": "Red Garlic",
+  "potatoes": "Potatoes",
+  "redPotatoes": "Red Potatoes",
+  "pasta": "Pasta"
+}
+,
+"footer": {
+  "description": "At Nile Gate Export, we connect global markets with premium Egyptian exports, offering quality and trust in every shipment.",
+  "quickLinks": "Quick Links",
+  "contactUs": "Contact Us",
+  "address": "Inside Capital Mall, second floor, el tagmo 5 , new Cairo",
+  "rights": "All rights reserved to",
+  "brmjaTech": "Brmja.tech"
+},
+"requestquote": {
+  "title": "Request Quote",
+  "name": "Your Name",
+  "whatsapp": "WhatsApp Number",
+  "email": "Your Email",
+  "country": "The Country",
+  "port": "The Port",
+  "products": "The Products you're interested in?",
+  "packaging": "Packaging",
+  "otherNotes": "Other Notes",
+  "payment": "Payment Method",
+  "choosePayment": "Choose your payment",
+  "cod": "Cash on Delivery",
+  "visa": "Visa",
+  "submit": "Submit"
+}
+  
+}
