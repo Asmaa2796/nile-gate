@@ -54,7 +54,7 @@ const Navbar = () => {
           <img src="/nile-color.png" alt={t('navbar.home')}/>
         </Link>
         <button
-          className="navbar-toggler border-light"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -62,7 +62,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i className="bi bi-list text-white"></i>
+          <i className="bi bi-list"></i>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
