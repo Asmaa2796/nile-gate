@@ -177,8 +177,9 @@ a {
 @media(max-width:768px) {
   .navbar-brand img {
     width: auto;
-    max-height: 43px;
+    max-height: 58px;
 }
+.navbar.fixed-top .navbar-brand img {width: auto;max-height: 58px;}
 }
 /* ########## DIR RTL ####### */
 [dir="rtl"] .dropdown-menu {text-align: right;}
