@@ -90,3 +90,6 @@
 @media(max-width:360px) {
     .carousel-caption h2 {font-size: 30px;}
 }
+@media(max-width:567px) {
+    .carousel-caption {bottom: 9%;}
+}
