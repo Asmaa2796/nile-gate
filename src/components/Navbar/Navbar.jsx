@@ -51,7 +51,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         <Link className="navbar-brand text-white" to="/">
-          <img src="/nile-white.png" alt={t('navbar.home')}/>
+          <img src="/nile-color.png" alt={t('navbar.home')}/>
         </Link>
         <button
           className="navbar-toggler border-light"
@@ -100,20 +100,20 @@ const Navbar = () => {
           </ul>
           <div className="dropdown">
             <button
-              className="btn dropdown-toggle text-white"
+              className="btn dropdown-toggle text-color"
               type="button"
               id="dropdownMenuButton"
               data-bs-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
-              {i18n.language === "ar" ? "العربية" : "English"}
+              {i18n.language === "fr" ? "French" : "English"}
             </button>
             <div className="dropdown-menu lang" aria-labelledby="dropdownMenuButton">
-              <button className="dropdown-item text-dark custom-ar" onClick={() => i18n.changeLanguage("ar")}>
-                العربية
+              <button className="dropdown-item text-dark" onClick={() => i18n.changeLanguage("fr")}>
+                French
               </button>
-              <button className="dropdown-item text-dark custom-font" onClick={() => i18n.changeLanguage("en")}>
+              <button className="dropdown-item text-dark" onClick={() => i18n.changeLanguage("en")}>
                 English
               </button>
             </div>

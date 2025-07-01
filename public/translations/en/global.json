@@ -97,6 +97,28 @@
   "cod": "Cash on Delivery",
   "visa": "Visa",
   "submit": "Submit"
+},
+"carousel": {
+  "slides": [
+    {
+      "title": "Discover Egypt’s Finest Exports",
+      "desc": "We bring premium quality fruits and vegetables directly from Egypt."
+    },
+    {
+      "title": "Global Shipping Solutions",
+      "desc": "We deliver fresh and frozen goods to every continent with care."
+    },
+    {
+      "title": "Certified Quality & Freshness",
+      "desc": "Our agricultural exports meet the highest international standards."
+    },
+    {
+      "title": "From Nile to the World",
+      "desc": "Trust Nile Gate Export for reliability, speed, and excellence."
+    }
+  ],
+  "viewMore": "View More →"
 }
+
   
 }

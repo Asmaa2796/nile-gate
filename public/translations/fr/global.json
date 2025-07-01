@@ -1,0 +1,120 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "contact": "Contactez-nous",
+    "products": "Nos Produits",
+    "gallery": "Galerie",
+    "features": "Nos Atouts",
+    "about": "À propos de nous",
+    "Arabic": "Arabe",
+    "English": "Anglais",
+    "language": "Langue"
+  },
+  "home": {
+    "typed1": "Bienvenue chez Nile Gate Export",
+    "typed2": "La meilleure façon d’exporter",
+    "heroDesc": "Nile Gate Export fournit des produits égyptiens de haute qualité dans le monde entier, en mettant l'accent sur la fiabilité, l'efficacité et la satisfaction du client.",
+    "requestQuote": "Demander un devis"
+  },
+  "about": {
+    "heading": "À propos de nous",
+    "whoUsTitle": "Qui sommes-nous",
+    "whoUsText": "Chez Nile Gate Export, nous nous engageons à connecter les marchés mondiaux avec les meilleurs produits d'Égypte et de la région. Forts de plusieurs années d'expérience dans le commerce international, nous sommes spécialisés dans l'approvisionnement, le contrôle qualité, l'emballage et l'exportation en temps voulu de produits agricoles, industriels et artisanaux à des clients du monde entier.",
+    "missionTitle": "Notre mission",
+    "missionText": "Notre mission est d'offrir l'excellence au-delà des frontières — en fournissant des solutions d’exportation fiables, efficaces et transparentes, conçues pour répondre aux besoins des entreprises, des grossistes et des détaillants du monde entier.",
+    "visionTitle": "Notre vision",
+    "visionText": "Nous croyons que la confiance, la qualité et la cohérence sont la base de partenariats mondiaux solides. De la ferme à l'expédition, chaque cargaison est traitée avec précision et soin pour garantir qu'elle vous parvienne en parfait état et dans les délais.",
+    "paragraphText": "Nous nous engageons à connecter les marchés mondiaux avec les meilleurs produits d'Égypte et de la région. Nous avons des années d'expérience dans le commerce international, spécialisés dans l'approvisionnement, le contrôle de qualité, l'emballage, et l'exportation en temps opportun de produits agricoles, industriels et artisanaux à des clients dans le monde entier."
+  },
+  "features": {
+    "globalTitle": "Portée mondiale",
+    "globalDesc": "Nous livrons efficacement et soigneusement des produits égyptiens de haute qualité à des clients dans le monde entier.",
+    "qualityTitle": "Garantie de qualité",
+    "qualityDesc": "Chaque expédition passe par un contrôle de qualité rigoureux pour garantir que seuls les meilleurs produits arrivent chez nos clients.",
+    "packagingTitle": "Emballage personnalisé",
+    "packagingDesc": "Solutions d'emballage personnalisées répondant aux normes internationales et aux besoins des marques.",
+    "deliveryTitle": "Livraison à temps",
+    "deliveryDesc": "Nous priorisons la ponctualité et veillons à ce que vos commandes soient toujours livrées à temps."
+  },
+  "products": {
+    "freshFruits": "Fruits frais",
+    "frozenFruits": "Fruits surgelés",
+    "freshVegetables": "Légumes frais",
+    "productDetails": "Détails du produit",
+    "noSubItems": "Aucun élément secondaire"
+  },
+  "categories": {
+    "title": "Catégories de produits",
+    "freshFruits": "Fruits frais",
+    "frozenFruits": "Fruits surgelés",
+    "freshVegetables": "Légumes frais",
+    "frozenVegetables": "Légumes surgelés",
+    "herbs": "Herbes",
+    "rosemary": "Romarin",
+    "seeds": "Graines",
+    "cumin": "Cumin",
+    "fennel": "Fenouil",
+    "spices": "Épices",
+    "blackPepper": "Poivre noir",
+    "whitePepper": "Poivre blanc",
+    "cloves": "Clous de girofle",
+    "grains": "Céréales",
+    "whiteKidneyBeans": "Haricots blancs",
+    "cowpeas": "Niébé",
+    "lentil": "Lentilles",
+    "egyptianCottonClothes": "Vêtements en coton égyptien",
+    "underwearCotton": "Sous-vêtements en coton",
+    "dates": "Dattes",
+    "garlic": "Ail",
+    "dryGarlic": "Ail séché",
+    "redGarlic": "Ail rouge",
+    "potatoes": "Pommes de terre",
+    "redPotatoes": "Pommes de terre rouges",
+    "pasta": "Pâtes"
+  },
+  "footer": {
+    "description": "Chez Nile Gate Export, nous connectons les marchés mondiaux aux meilleures exportations égyptiennes, offrant qualité et confiance dans chaque expédition.",
+    "quickLinks": "Liens rapides",
+    "contactUs": "Contactez-nous",
+    "address": "Dans Capital Mall, 2ᵉ étage, 5ᵉ rassemblement, Nouveau Caire",
+    "rights": "Tous droits réservés à",
+    "brmjaTech": "Brmja Tech"
+  },
+  "requestquote": {
+    "title": "Demande de devis",
+    "name": "Nom",
+    "whatsapp": "Numéro WhatsApp",
+    "email": "E-mail",
+    "country": "Pays",
+    "port": "Port",
+    "products": "Quels produits vous intéressent ?",
+    "packaging": "Emballage",
+    "otherNotes": "Autres remarques",
+    "payment": "Méthode de paiement",
+    "choosePayment": "Choisissez une méthode de paiement",
+    "cod": "Paiement à la livraison",
+    "visa": "Carte Visa",
+    "submit": "Envoyer"
+  },
+  "carousel": {
+    "slides": [
+      {
+        "title": "Découvrez les meilleures exportations d'Égypte",
+        "desc": "Nous apportons des fruits et légumes de qualité supérieure directement d'Égypte."
+      },
+      {
+        "title": "Solutions d'expédition mondiales",
+        "desc": "Nous livrons des produits frais et surgelés sur tous les continents avec soin."
+      },
+      {
+        "title": "Qualité et fraîcheur certifiées",
+        "desc": "Nos exportations agricoles répondent aux normes internationales les plus élevées."
+      },
+      {
+        "title": "Du Nil au monde",
+        "desc": "Faites confiance à Nile Gate Export pour la fiabilité, la rapidité et l'excellence."
+      }
+    ],
+    "viewMore": "Voir plus →"
+  }
+}

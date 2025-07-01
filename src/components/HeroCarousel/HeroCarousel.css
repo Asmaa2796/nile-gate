@@ -1,0 +1,92 @@
+.carousel3d-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel3d-track {
+  display: flex;
+  transition: transform 0.6s ease;
+  will-change: transform;
+}
+
+.carousel3d-slide {
+  min-width: 100%;
+  height: 450px;
+  perspective: 1200px;
+}
+
+.carousel3d-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateY(0deg) scale(1);
+  transition: transform 0.6s ease;
+}
+
+.carousel3d-button {
+  position: absolute;
+  transition: all .3s ease-in-out;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--sub-color);
+  color: var(--basic-color);
+  font-size: 2rem;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel3d-button.prev { left: 10px; }
+.carousel3d-button.next { right: 10px; }
+
+.carousel3d-button:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 28%;
+  left: 0%;
+  right: 0%;
+  color: #fff;
+  background: rgba(0, 53, 99, 0.8);
+  padding: 25px 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 700px;
+  margin: 0px auto;
+  max-width: 90%; /* Set maximum width */
+  box-sizing: border-box;
+}
+
+
+
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.carousel-caption .btn {
+  background-color: var(--main-color);
+  color: var(--basic-color) !important;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.carousel-caption .btn:hover {
+  background-color: var(--main-color);
+}
+
+@media(max-width:360px) {
+    .carousel-caption h2 {font-size: 30px;}
+}

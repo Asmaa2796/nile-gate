@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Hero from '../Hero/Hero';
+import ThreeDSpringCarousel from '../HeroCarousel/ThreeDSpringCarousel';
 import Products from '../Products/Products';
 import About from '../About/About';
 import { useLocation } from 'react-router-dom';
@@ -15,7 +15,7 @@ const Home = () => {
       if (el) {
         setTimeout(() => {
           el.scrollIntoView({ behavior: 'smooth' });
-        }, 100); // slight delay for rendering
+        }, 100);
       }
     }
   }, [location]);
@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <section id="home">
-        <Hero />
+        <ThreeDSpringCarousel />
       </section>
 
       <section id="our_products">

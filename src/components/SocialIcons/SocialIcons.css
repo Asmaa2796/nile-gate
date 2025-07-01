@@ -2,7 +2,7 @@
          background-color: var(--basic-color);
     position: fixed;
     left: 0;
-    top: 30%;
+    top: 50%;
         border: 3px solid var(--main-color);
     z-index: 9;
     border-radius: 0px 10px 10px 0px;

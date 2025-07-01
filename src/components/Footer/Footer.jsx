@@ -1,11 +1,12 @@
 import React from "react";
 import "./Footer.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { TbBrandWhatsappFilled } from "react-icons/tb";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const { t,i18n } = useTranslation("global");
+  const { t, i18n } = useTranslation("global");
   const navigate = useNavigate();
   const location = useLocation();
   const scrollToSection = (id) => {
@@ -77,26 +78,44 @@ const Footer = () => {
               <FaMapMarkerAlt className="me-2" /> {t("footer.address")}
             </p>
             <p>
-              <FaPhone className="me-2" />{" "}
+              <TbBrandWhatsappFilled className="me-2" />
               <a
-                href="tel:+201017037507"
+                href="https://wa.me/201017037507"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   direction: "ltr",
                   color: "var(--basic-color) !important",
                 }}
                 className="d-inline-block"
               >
-                {" "}
-                +201017037507
-              </a>{" "}
+                +2 010 170 375 07
+              </a>
             </p>
+
+            <p>
+              <TbBrandWhatsappFilled className="me-2" />
+              <a
+                href="https://wa.me/14379915123"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  direction: "ltr",
+                  color: "var(--basic-color) !important",
+                }}
+                className="d-inline-block"
+              >
+                +1 437 991 5123
+              </a>
+            </p>
+
             <p className="custom-font">
               <FaEnvelope className="me-2" />{" "}
               <a
-                href="mailto:Info@Nilegatewgypt.com"
+                href="mailto:info@nilegateegypt.com"
                 style={{ color: "var(--basic-color) !important" }}
               >
-                Info@Nilegatewgypt.com
+                info@nilegateegypt.com
               </a>{" "}
             </p>
           </div>
@@ -110,10 +129,9 @@ const Footer = () => {
               href="https://brmja.tech/"
               target="_blank"
               rel="noopener noreferrer"
-              className={`${i18n.language === 'ar' ? 'custom-ar':'custom-font'}`}
             >
               {" "}
-              {t('footer.brmjaTech')}
+              {t("footer.brmjaTech")}
             </a>
           </small>
         </div>
